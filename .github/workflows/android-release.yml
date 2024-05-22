@@ -15,10 +15,10 @@ jobs:
         with:
           java-version: 17
 
-      - name: Install Flutter
-        uses: flutter/flutter-action@v2
+      - name: 'Set Flutter 3.19.6'
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.19.6'  # Update with your desired Flutter version
+             flutter-version: 3.19.6 # Update with your desired Flutter version
 
       - name: Cache Flutter dependencies
         uses: actions/cache@v3
