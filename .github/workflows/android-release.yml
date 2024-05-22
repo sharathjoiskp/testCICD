@@ -43,10 +43,4 @@ jobs:
         run: flutter test
 
       - name: Build Android app (release mode)
-        run: flutter build appbundle --release
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: android-release-bundle
-          path: build/app/outputs/bundle/release/app-release.aab
+        run: flutter build apk
