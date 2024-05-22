@@ -16,7 +16,7 @@ jobs:
           java-version: 17
 
       - name: Install Flutter
-        uses: suborbital/flutter@v1
+        uses: flutter/flutter-action@v2
         with:
           flutter-version: '3.19.6'  # Update with your desired Flutter version
 
